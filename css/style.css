@@ -191,11 +191,14 @@ p {
   }
   
   .confete {
-    width: 75px;
-    left: 130px;
+    width: 50%;
+    height: auto;
+    left: 65px;
   }
   
   .bolo{
+    width: 50%;
+    height: auto;
     position: relative;
     top: 15px;
     left:40px;
@@ -258,6 +261,8 @@ p {
   }
   
   .baloes{
+    width: 50%;
+    height: auto;
     top: -50px;
     left: 75px;
   }
