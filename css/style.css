@@ -185,33 +185,58 @@ p {
   }
   
   .confete {
-    width: 20%;
-    height: auto;
-    align-items: calc(width/4);
+    width: 80px;
+  height: 56px;
+  flex-shrink: 0;
+    /*width: 20%;
+    height: auto;*/
   }
   
   .bolo{
-    width: 50%;
+    width: 125px;
+height: 152px;
+flex-shrink: 0;
+   /* width: 50%;
     height: auto;
     position: relative;
 
-   /* top: 15px;
+   top: 15px;
     left:40px;*/
   }
   
   .textoCapa .feliz{
-   /* top: -200px;*/
-  font-size: 27px;
+    display: flex;
+width: 100px;
+height: 31px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+font-size: 24px;
+   /* top: -200px;
+  font-size: 27px;*/
   }
   
   .textoCapa .niver{
-   /* top: -230px;*/
-    font-size: 27px;
+    display: flex;
+width: 100px;
+height: 31px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+font-size: 24px;
+   /* top: -230px;
+    font-size: 27px;*/
   }
   
   .textoCapa .nome{
-   /* top: -125px;*/
-    font-size: 32px;
+    display: flex;
+width: 118px;
+height: 37px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+   /* top: -125px;
+    font-size: 32px;*/
   }
   
   .feliz {
