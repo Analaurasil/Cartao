@@ -192,36 +192,15 @@ p {
   }
   
   .textoCapa .feliz{
-    top: -400px;
-    color: #000;
-  text-align: center;
-  font-family: Irish Grover;
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 350;
-  line-height: normal;
+  font-size: 45px;
   }
   
   .textoCapa .niver{
-    top: -460px;
-    color: #000;
-    text-align: center;
-    font-family: Irish Grover;
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 350;
-    line-height: normal;
+    font-size: 45px;
   }
   
   .textoCapa .nome{
-    top: -250px;
-    color: #000;
-    text-align: center;
-    font-family: Jua;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 30px;
   }
   
   .feliz {
@@ -229,11 +208,7 @@ p {
   }
   
   .feliz, .nome {
-    position: relative;
-    font-family: didot;
-    text-align: center;
-    backface-visibility: hidden;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   .nome {
@@ -241,28 +216,18 @@ p {
   }
   
   .niver {
-    position: relative;
-    font-family: arial;
-    font-size: 30px;
-    text-align: center;
-    top:220px;
+    font-size: 20px;
   }
   
   .conteudo {
-    position: absolute;
-    background-color: #fff;
     width: 200px;
     height:300px;
-    z-index:-1;
-    left:0;
-    top:0;
-    box-shadow: inset 100px 20px 100px white;
   }
   
   .textoConteudo {
     position: relative;
     top:-180px;
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
   
   .recado {
