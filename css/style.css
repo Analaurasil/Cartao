@@ -170,62 +170,96 @@ p {
 
 @media (max-width: 768px){
   body {
-    height:50vh;
+    height:40vh;
   }
   
+  .cartao {
+    width: 200px;
+    height:175px;
+  }
+  /*
+  .cartao:hover {
+    transform: perspective(2500px) rotate(5deg);
+    box-shadow: inset 100px 20px 100px white, 0 10px 100px rgba(0,0,0,0.3);
+  }*/
+  
   .capa {
-    width: 200px; 
-    height: 300px; 
+    width: 200px;
+    height:300px;
+   /* box-shadow: inset 100px 20px 100px white, 30px 0 50px rgba(0,0,0,0.1);
+    transition: .4s;*/
   }
   
   .confete {
-    width: 8px;
-    height: auto;
+    width: 75px;
+    left: 130px;
   }
   
   .bolo{
-    width: 50px;
-    height: auto;
+    position: relative;
+    top: 15px;
+    left:40px;
   }
   
   .textoCapa .feliz{
-  font-size: 15px;
+    top: -200px;
+  font-size: 27px;
   }
   
   .textoCapa .niver{
-    font-size: 15px;
+    top: -230px;
+    font-size: 27px;
   }
   
   .textoCapa .nome{
-    font-size: 15px;
+    top: -125px;
+    font-size: 32px;
+  }
+  
+  .feliz {
+    top:125px;
   }
   
   .feliz, .nome {
-    font-size: 10px;
+    font-size: 15px;
   }
   
   .nome {
-    top:183px;
+    top:92px;
   }
   
   .niver {
-    font-size: 10px;
+    font-size: 15px;
+    top:110px;
   }
   
   .conteudo {
     width: 200px;
-    height:300px;
+    height:400px;
+   /* box-shadow: inset 100px 20px 100px white;*/
   }
   
   .textoConteudo {
-    transform: scale(0.8);
+    top:-90px;
+  }
+  
+  .recado {
+
+    top:-35px;
+    margin: 22px;
   }
   
   p {
     font-size: 8px;
   }
   
-  .baloes{
-   width: 60px;
+  .final {
+    margin-left:135px;
   }
+  
+  .baloes{
+    top: -50px;
+    left: 75px;
+  }
+  
 }
