@@ -188,6 +188,8 @@ p {
     width: 80px;
   height: 56px;
   flex-shrink: 0;
+  position: relative;
+  left: 130px;
     /*width: 20%;
     height: auto;*/
   }
@@ -196,6 +198,9 @@ p {
     width: 125px;
 height: 152px;
 flex-shrink: 0;
+position: relative;
+top: 15px;
+left:40px;
    /* width: 50%;
     height: auto;
     position: relative;
@@ -212,6 +217,7 @@ flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
 font-size: 24px;
+top: -200px;
    /* top: -200px;
   font-size: 27px;*/
   }
@@ -224,6 +230,7 @@ flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
 font-size: 24px;
+top: -200px;
    /* top: -230px;
     font-size: 27px;*/
   }
@@ -235,6 +242,7 @@ height: 37px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
+top: -125px;
    /* top: -125px;
     font-size: 32px;*/
   }
