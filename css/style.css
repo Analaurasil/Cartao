@@ -170,12 +170,12 @@ p {
 
 @media (max-width: 768px){
   body {
-    height:30vh;
+    height:50vh;
   }
   
   .capa {
-    width: 200px;
-    height:300px;
+    width: 200px; 
+    height: 300px; 
   }
   
   .confete {
@@ -251,8 +251,8 @@ p {
   .conteudo {
     position: absolute;
     background-color: #fff;
-    width: 400px;
-    height:600px;
+    width: 200px;
+    height:300px;
     z-index:-1;
     left:0;
     top:0;
