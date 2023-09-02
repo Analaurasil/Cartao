@@ -170,7 +170,7 @@ p {
 
 @media (max-width: 768px){
   body {
-    height:40vh;
+    height:50vh;
   }
   
   .cartao {
@@ -185,31 +185,31 @@ p {
   }
   
   .confete {
-    width: 30%;
+    width: 20%;
     height: auto;
-    left: 65px;
+    /*left: 65px;*/
   }
   
   .bolo{
     width: 50%;
     height: auto;
     position: relative;
-    top: 15px;
-    left:40px;
+   /* top: 15px;
+    left:40px;*/
   }
   
   .textoCapa .feliz{
-    top: -200px;
+   /* top: -200px;*/
   font-size: 27px;
   }
   
   .textoCapa .niver{
-    top: -230px;
+   /* top: -230px;*/
     font-size: 27px;
   }
   
   .textoCapa .nome{
-    top: -125px;
+   /* top: -125px;*/
     font-size: 32px;
   }
   
@@ -233,7 +233,6 @@ p {
   .conteudo {
     width: 200px;
     height:300px;
-   /* box-shadow: inset 100px 20px 100px white;*/
   }
   
   .textoConteudo {
