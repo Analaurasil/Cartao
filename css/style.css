@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:70vh;
+  background-color: rgba(168, 167, 167, 0.6);
+}
+
+.cartao {
+  position: relative;
+  width: 400px;
+  height:350px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: 4s;
+}
+
+.cartao:hover {
+  transform: perspective(2500px) rotate(5deg);
+  box-shadow: inset 100px 20px 100px white, 0 10px 100px rgba(0,0,0,0.3);
+}
+
+.cartao:hover .capa {
+  transform: rotateY(-160deg);
+}
+
+.cartao:hover .textoCapa {
+  display: none;
+}
+
+
+.cartao:hover .confete{
+  display: none;
+}
+
+.cartao:hover .wrap-decoTwo {
+  display: none;
+}
+
+.cartao:hover .bolo {
+  display: none;
+}
+
+.capa {
+  background-color: rgb(255, 246, 246);
+  width: 400px;
+  height:600px;
+  overflow: hidden;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px white, 30px 0 50px rgba(0,0,0,0.1);
+  transition: .4s;
+}
+
+.confete {
+  width: 150px;
+  height: auto;
+  position: relative;
+  left: 260px;
+}
+
+.bolo{
+  position: relative;
+  top: 30px;
+  left:80px;
+}
+
+.textoCapa .feliz{
+  top: -400px;
+  color: #000;
+text-align: center;
+font-family: Irish Grover;
+font-size: 55px;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+}
+
+.textoCapa .niver{
+  top: -460px;
+  color: #000;
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+
+.textoCapa .nome{
+  top: -250px;
+  color: #000;
+  text-align: center;
+  font-family: Jua;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.feliz {
+  top:250px;
+}
+
+.feliz, .nome {
+  position: relative;
+  font-family: didot;
+  text-align: center;
+  backface-visibility: hidden;
+  font-size: 30px;
+}
+
+.nome {
+  top:183px;
+}
+
+.niver {
+  position: relative;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  top:220px;
+}
+
+.conteudo {
+  position: absolute;
+  background-color: #fff;
+  width: 400px;
+  height:600px;
+  z-index:-1;
+  left:0;
+  top:0;
+  box-shadow: inset 100px 20px 100px white;
+}
+
+.textoConteudo {
+  position: relative;
+  top:-180px;
+  transform: scale(0.7);
+}
+
+.recado {
+  text-align: justify;
+  position: relative;
+  top:-70px;
+  margin: 45px;
+}
+
+p {
+  color: #000;
+  font-family: Leckerli One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.final {
+  margin-left:270px;
+}
+
+.baloes{
+  position: relative;
+  top: -100px;
+  left: 150px;
+}
+
+@media (max-width: 768px){
+  body {
+    height:30vh;
+  }
+  
+  .capa {
+    width: 200px;
+    height:300px;
+  }
+  
+  .confete {
+    width: 50px;
+    height: auto;
+    position: relative;
+    left: 260px;
+  }
+  
+  .bolo{
+    position: relative;
+    top: 30px;
+    left:80px;
+  }
+  
+  .textoCapa .feliz{
+    top: -400px;
+    color: #000;
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  }
+  
+  .textoCapa .niver{
+    top: -460px;
+    color: #000;
+    text-align: center;
+    font-family: Irish Grover;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+  }
+  
+  .textoCapa .nome{
+    top: -250px;
+    color: #000;
+    text-align: center;
+    font-family: Jua;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .feliz {
+    top:250px;
+  }
+  
+  .feliz, .nome {
+    position: relative;
+    font-family: didot;
+    text-align: center;
+    backface-visibility: hidden;
+    font-size: 30px;
+  }
+  
+  .nome {
+    top:183px;
+  }
+  
+  .niver {
+    position: relative;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    top:220px;
+  }
+  
+  .conteudo {
+    position: absolute;
+    background-color: #fff;
+    width: 400px;
+    height:600px;
+    z-index:-1;
+    left:0;
+    top:0;
+    box-shadow: inset 100px 20px 100px white;
+  }
+  
+  .textoConteudo {
+    position: relative;
+    top:-180px;
+    transform: scale(0.7);
+  }
+  
+  .recado {
+    text-align: justify;
+    position: relative;
+    top:-70px;
+    margin: 45px;
+  }
+  
+  p {
+    color: #000;
+    font-family: Leckerli One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .final {
+    margin-left:270px;
+  }
+  
+  .baloes{
+    position: relative;
+    top: -100px;
+    left: 150px;
+  }
+}
