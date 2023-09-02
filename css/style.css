@@ -187,13 +187,14 @@ p {
   .confete {
     width: 20%;
     height: auto;
-    /*left: 65px;*/
+    align-items: calc(width/4);
   }
   
   .bolo{
     width: 50%;
     height: auto;
     position: relative;
+
    /* top: 15px;
     left:40px;*/
   }
