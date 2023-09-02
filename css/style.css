@@ -11,10 +11,8 @@ body {
 
 .cartao {
   position: relative;
- /* width: 400px;
-  height:350px;*/
-  width: 40vh;
-  height:35vh;
+  width: 400px;
+  height:350px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
@@ -49,8 +47,8 @@ body {
 
 .capa {
   background-color: rgb(255, 246, 246);
-  width: 40vh;
-  height:60vh;
+  width: 400px;
+  height:600px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px white, 30px 0 50px rgba(0,0,0,0.1);
@@ -58,53 +56,53 @@ body {
 }
 
 .confete {
-  width: 15vh;
+  width: 150px;
   height: auto;
   position: relative;
-  left: 26vh;
+  left: 260px;
 }
 
 .bolo{
   position: relative;
-  top: 3vh;
-  left:8vh;
+  top: 30px;
+  left:80px;
 }
 
 .textoCapa .feliz{
-  top: -40vh;
+  top: -400px;
   color: #000;
 text-align: center;
 font-family: Irish Grover;
-font-size: 5vh;
+font-size: 55px;
 font-style: normal;
 font-weight: 350;
 line-height: normal;
 }
 
 .textoCapa .niver{
-  top: -46vh;
+  top: -460px;
   color: #000;
   text-align: center;
   font-family: Irish Grover;
-  font-size: 5vh;
+  font-size: 55px;
   font-style: normal;
   font-weight: 350;
   line-height: normal;
 }
 
 .textoCapa .nome{
-  top: -25vh;
+  top: -250px;
   color: #000;
   text-align: center;
   font-family: Jua;
-  font-size: 6.4vh;
+  font-size: 64px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .feliz {
-  top:25vh;
+  top:250px;
 }
 
 .feliz, .nome {
@@ -112,26 +110,26 @@ line-height: normal;
   font-family: didot;
   text-align: center;
   backface-visibility: hidden;
-  font-size: 3vh;
+  font-size: 30px;
 }
 
 .nome {
-  top:18.3vh;
+  top:183px;
 }
 
 .niver {
   position: relative;
   font-family: arial;
-  font-size: 3vh;
+  font-size: 30px;
   text-align: center;
-  top:22vh;
+  top:220px;
 }
 
 .conteudo {
   position: absolute;
   background-color: #fff;
-  width: 40vh;
-  height:60vh;
+  width: 400px;
+  height:600px;
   z-index:-1;
   left:0;
   top:0;
@@ -140,21 +138,21 @@ line-height: normal;
 
 .textoConteudo {
   position: relative;
-  top:-18vh;
+  top:-180px;
   transform: scale(0.7);
 }
 
 .recado {
   text-align: justify;
   position: relative;
-  top:-7vh;
-  margin: 4.5vh;
+  top:-70px;
+  margin: 45px;
 }
 
 p {
   color: #000;
   font-family: Leckerli One;
-  font-size: 1.6vh;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -166,8 +164,8 @@ p {
 
 .baloes{
   position: relative;
-  top: -10vh;
-  left: 15vh;
+  top: -100px;
+  left: 150px;
 }
 
 @media (max-width: 768px){
