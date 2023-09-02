@@ -179,36 +179,29 @@ p {
   }
   
   .confete {
-    width: 50px;
+    width: 8px;
     height: auto;
-    position: relative;
-    left: 260px;
   }
   
   .bolo{
-    position: relative;
-    top: 30px;
-    left:80px;
+    width: 50px;
+    height: auto;
   }
   
   .textoCapa .feliz{
-  font-size: 45px;
+  font-size: 15px;
   }
   
   .textoCapa .niver{
-    font-size: 45px;
+    font-size: 15px;
   }
   
   .textoCapa .nome{
-    font-size: 30px;
-  }
-  
-  .feliz {
-    top:250px;
+    font-size: 15px;
   }
   
   .feliz, .nome {
-    font-size: 20px;
+    font-size: 10px;
   }
   
   .nome {
@@ -216,7 +209,7 @@ p {
   }
   
   .niver {
-    font-size: 20px;
+    font-size: 10px;
   }
   
   .conteudo {
@@ -225,34 +218,14 @@ p {
   }
   
   .textoConteudo {
-    position: relative;
-    top:-180px;
     transform: scale(0.8);
   }
   
-  .recado {
-    text-align: justify;
-    position: relative;
-    top:-70px;
-    margin: 45px;
-  }
-  
   p {
-    color: #000;
-    font-family: Leckerli One;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  .final {
-    margin-left:270px;
+    font-size: 8px;
   }
   
   .baloes{
-    position: relative;
-    top: -100px;
-    left: 150px;
+   width: 60px;
   }
 }
