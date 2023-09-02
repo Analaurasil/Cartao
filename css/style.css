@@ -175,19 +175,13 @@ p {
   
   .cartao {
     width: 200px;
-    height:300px;
+    height:175px;
   }
   
-  .cartao:hover {
-    transform: perspective(2500px) rotate(5deg);
-    box-shadow: inset 50px 10px 50px white, 0 5px 50px rgba(0,0,0,0.3);
-  }
   
   .capa {
     width: 200px;
-    height:300px;
-    box-shadow: inset 50px 10px 50px white, 15px 0 25px rgba(0,0,0,0.1);
-    transition: .4s;
+    height:175px;
   }
   
   .confete {
@@ -238,7 +232,7 @@ p {
   
   .conteudo {
     width: 200px;
-    height:400px;
+    height:175px;
    /* box-shadow: inset 100px 20px 100px white;*/
   }
   
